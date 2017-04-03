@@ -1,11 +1,3 @@
-## Todo
-
-- double check that my solution runs... no import issues, etc.
-- issue of a feature value not being seen at train time (comes up with NB and digits)
-- [if time] implement the feature engineering part
-- [if time] implement perceptron
-
-
 # Lab 7
 
 Welcome to the *seventh* COSC 480 Data Science Lab!  (Lab 6 was working on data acquisition for your project.)  You are encouraged to work with a partner for this lab.
