@@ -1,0 +1,15 @@
+Feature engineering for Spam
+----------------------------
+
+1. What were your features?  (briefly describe)
+
+
+
+
+2. Which classifier performed the best?
+
+
+
+
+3. What features were most important?  (Your answer should match information
+   printed by the corresponding printDiagnostics method.)
