@@ -72,6 +72,7 @@ def loadSpamData(dirname, n):
     """
     rawEmailTexts = []
     filenames = [name for name in os.listdir(dirname) if 'spam' in name or 'ham' in name] # remove system files
+    filenames = [name for name in filenames if not name.startswith('._')] # remove hidden files
     filenames.sort(key=lambda name: int(name.split('.')[0]))  # sort them numerically
     for filename in filenames:
         if 'ham' in filename or 'spam' in filename:
