@@ -1,4 +1,4 @@
-import util
+import collections
 
 class FeatureExtractor:
     """
@@ -51,7 +51,7 @@ class IdentityFeatureExtractor(FeatureExtractor):
 
     def extractFeatures(self, datum):
         if self.make_binary:
-            binaryFeatures = util.Counter()
+            binaryFeatures = collections.Counter()
             for feature,value in datum.items():
                 binaryFeatures['{0}={1}'.format(feature, value)] = 1.0
             return binaryFeatures
