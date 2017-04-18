@@ -41,8 +41,10 @@ Your print diagnostics function should print something like this:
 
 	For label 1 vs. 0
 	The top 5 features according to max odds ratio are:
-	   word_freq_000 = (0.26-inf) has odds 30.785046196
-	   capital_run_length_longest = (251.5-inf) has odds 29.6781681305
-	   word_freq_remove = (0.01-inf) has odds 21.7283696842
-	   word_freq_money = (0.01-inf) has odds 18.2933303811
-	   char_freq_$ = (0.1475-inf) has odds 17.6434313862
+	   capital_run_length_longest = (251.5-inf) has odds 43.6618911175
+	   word_freq_000 = (0.26-inf) has odds 28.1504297994
+	   word_freq_remove = (0.01-inf) has odds 17.8228160192
+	   word_freq_money = (0.01-inf) has odds 14.8880692556
+	   char_freq_$ = (0.1475-inf) has odds 14.2935243553
+
+Your answers might differ slightly based on implementation.
