@@ -39,12 +39,16 @@ For example, when run on the spambase data, like this:
 
 Your print diagnostics function should print something like this:
 
+	Training...
+	3608 correct out of 4000 (90.2%) on training data.
+	Testing...
+	449 correct out of 500 (89.8%) on test data.
 	For label 1 vs. 0
 	The top 5 features according to max odds ratio are:
-	   capital_run_length_longest = (251.5-inf) has odds 43.6618911175
-	   word_freq_000 = (0.26-inf) has odds 28.1504297994
-	   word_freq_remove = (0.01-inf) has odds 17.8228160192
-	   word_freq_money = (0.01-inf) has odds 14.8880692556
-	   char_freq_$ = (0.1475-inf) has odds 14.2935243553
+	   capital_run_length_longest = (251.5-inf) has odds 57.8842767296
+	   word_freq_000 = (0.26-inf) has odds 37.3443604285
+	   word_freq_remove = (0.01-inf) has odds 23.6488753336
+	   word_freq_money = (0.01-inf) has odds 19.754795954
+	   char_freq_$ = (0.1475-inf) has odds 18.9576826196
 
 Your answers might differ slightly based on implementation.

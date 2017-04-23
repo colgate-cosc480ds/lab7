@@ -8,7 +8,7 @@ This perceptron is similar to what was described in class.  However, your implem
 
 The way this is handled with a perceptron is by maintaining a separate weight vector for each possible value of the target attribute.  So, if the target attribute is binary (e.g., spam/ham), you would have two weight vectors (one for spam and one for ham).  
 
-To perform classification, the perceptron computes the weighted average for each weight vector and classifies the input as belonging to whichever class yields the highest weighted average.
+To perform classification, the perceptron computes the weighted combination for each weight vector and classifies the input as belonging to whichever class yields the highest weighted combination.
 
 To fit a multi-class perceptron using training data, the procedure is pretty much as described in class.  The only difference is the weight vector update step.  Here, you should update each weight vector in turn.  For example, suppose the misclassified example was labeled spam but it really is a ham.  Then we should *subtract* from the spam vector and *add* to the ham vector.
 

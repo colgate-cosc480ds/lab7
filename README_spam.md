@@ -50,4 +50,4 @@ You can run your enhanced features by passing the `-f` flag, as in
 
 Your features should increase the accuracy of your classifiers. For full credit, you should see a significant improvement in accuracy and/or demonstrate that you tried a number of thoughtful features. On the spam dataset, it is possible to get above 95% accuracy!
 
-After you have finished, fill in `analysis_digits.txt`.
+After you have finished, fill in `analysis_spam.txt`.

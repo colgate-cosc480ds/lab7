@@ -6,7 +6,7 @@ Try running your classifiers on the digit dataset. This command runs the percept
 
 	$ python dataClassifier.py -d digits -t 5000 -s 1000 -c naiveBayes
 
-The basic feature set for the digits dataset is simply the pixel values: there is a feature for each possible pixel and its value is either 0 or 1. Using the basic feature set, the perceptron obtains approximately 70.8% accuracy on the test set.
+The basic feature set for the digits dataset is simply the pixel values: there is a feature for each possible pixel and its value is either 0 or 1. Using the basic feature set, Naive Bayes obtains approximately 77% accuracy on the test set.
 
 ## Feature Design for Digits dataset
 
